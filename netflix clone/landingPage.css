@@ -1,0 +1,333 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.one{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.5) 40%, rgba( 0, 0, 0, 0.4) 75%, rgba(0, 0, 0, 0.8) 100%),
+                      url(../media/LoginScr.jpg);
+    display: block;
+    height: 92vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem ;
+}
+
+.lang{
+    text-align: center;
+    width:110%;
+    height:80%;
+    background-color: #101010;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #999;
+    opacity: 0.8;
+    order:2;
+}
+.logo{
+    width : 9rem;
+    height: 2.5rem;
+    order:3;
+    
+}
+div{
+    border:0;
+    margin:0;
+}
+.nav-left, .nav-right{
+    list-style-type:none ;
+}
+.signIn{
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    width: 125%;
+    height:85%;
+    font-size: 1.15em;
+    border-radius: 4px;
+    border-color: red;
+    border-style: hidden;
+    order:2;
+}
+.h1, .h4, .h5{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.first{
+    margin: 10rem 0 0 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.h1{
+    font-family:sans-serif ;
+    font-weight: 1000;
+    font-size: 2.5rem;
+    width:80vw;
+    margin: auto;
+}
+.h4{
+    font-size: 1.5rem;
+    font-weight: 30;
+    margin: 1.5rem 0;
+}
+.h5{
+    font-size: 1.2rem;
+    font-weight: 70;
+    margin: 0.5rem 0;
+}
+.input{
+    margin:0 0.3rem;
+    padding: 0 1rem;
+    color:#ddd;
+    width:25vw;
+    height:7.5vh;
+    background-color: #000;
+    opacity: 0.7;
+    border-color: #999;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 1rem;
+}
+.get-started{
+    background-color: red;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius:5px;
+    margin:0;
+    border-color: red;
+    border-style: solid;
+    height:7.5vh;
+    width:10vw;
+}
+p{
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-size:1.3rem;
+    font-weight: 50;
+}
+.email{
+    margin: 1rem 0 0;
+}
+hr{
+    border: 0;
+    margin:0;
+    height:8px;
+    background-color: #333;
+} 
+.two{
+    background-color: #000;
+    height: 92vh;
+}
+
+
+.two .right{
+    display: inline-block;
+    width: calc(49vw - 6rem);
+    height: 80vh;
+    padding:5.5rem 0 0 0;
+    text-align: left;
+    position: relative;
+    top: 0rem;
+}
+.two .right .img{
+    width:37vw;
+    height:auto;
+    position: relative;
+}
+.two .right .img video{
+    position:absolute;
+    margin:0;
+    width: calc(28vw - 15px);
+    top: 85px;
+    left: 75px;
+}
+.two .right .img img{
+    position:absolute;
+    width:37vw;
+}
+.two .left{
+    display: inline-block;
+    width:calc(49vw - 10rem);
+    height: 65vh;
+    vertical-align: top;
+    padding: 12rem 0 0 12rem;
+}
+.two .left h4{
+    font-weight: 10;
+    width: 37vw;
+    margin:0;
+    font-size: 1.5rem;
+}
+.two .left h1    {
+    font-weight: 1000;
+    font-size: 2.5rem;
+    width: calc(26vw);
+    margin:0 0 2rem 0;
+}
+.three{
+    height:92vh;
+    background-color: #000;
+}
+.three .left{
+    display: inline-block;
+    height: 82vh;
+    width:49vw;
+}
+.three .left .pose{
+    width: 40vw;
+    padding:5rem 0 0 7rem;
+}
+.three .left .img {
+    height:3.5rem;
+    width: fit-content;
+    display: inline-block;
+}
+.three .left .thumb {
+    width:18rem;
+    height:4rem;
+    display: inline-block;
+    top:-7rem;
+    padding:0.5rem 0 0.5rem  2rem;
+    position: relative;
+    left:16rem;
+    background-color: #000;
+    opacity: 0.9;
+    border-radius: 7px;
+    border-color: green;
+    border-width: 1px;
+    border-style:solid;
+    border-top-style:none
+}
+.three .left .thumb .data {
+    font-size: 1rem;
+    color: #eee;
+    width: 10rem;
+    position:relative;
+    left:3.5rem;
+    top: -3.5rem;
+    font-family: sans-serif;
+}
+.three .left .thumb .data h3{
+    margin:0 0 0.3rem 0;
+
+}
+.three .left .thumb .data h5{
+    margin:0;
+    color:rgb(45, 90, 255)
+
+}
+.three .left .thumb .data .icon1{
+    position:relative;
+    left: 12rem;
+    top:-2rem;
+}
+.three .left .thumb .data .icon2{
+        position:absolute;
+        left: 12.169rem;
+        top:1.2rem;
+        width:11%;
+}
+.right{
+    width:49vw;
+    display: inline-block;
+    position: relative;
+    top: -10rem;
+    text-align: left;
+}
+.right h1{
+    width:45vw;
+    margin:0;
+    font-size: 3.3rem;
+}
+.right h4{
+    width:30vw;
+    font-weight: 400;
+}
+.right1{
+    width:44vw;
+    padding: 20rem 0 0 5rem;
+    display:inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.left1{
+    width:49vw;
+    display:inline-block;
+    vertical-align: top;
+    padding:15vh 0 0 0;
+}
+.right1 h1, .right1 h4{
+    width:40vw;
+    margin:0;
+}
+.faq{
+    height: 45vw;
+    background-color: #000;
+    padding:2rem 0 0 0;
+}
+.faq h1{
+    background-color: #000;
+    color: #fff;
+    margin:0 0 2rem 0;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+}
+.faq label{
+    width:40vw;
+    margin:0 0 0 25rem;
+    padding: 1rem 10rem 5px 1rem;
+    height:3rem;
+    color:#fff;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    display: block;
+    background-color: #252525;
+    border-style: solid;
+    border-width: 5px;
+    border-color:#000;
+}
+.content{
+    height:0;
+    text-align: left;
+    margin:0 0 0 25rem;
+    width:49.5vw;
+    background-color: #111;
+    overflow: hidden;
+}
+.content h4{
+    color:#fff;
+    font-family: sans-serif;
+    overflow: hidden !important;
+    font-size: 1rem;
+    width:48vw;
+    margin:0;
+    padding: 5px 1rem;
+}
+label::after{
+    content:'+';
+    font-size: 34px;
+    position :absolute;
+    right:22rem;
+}
+input[type='radio']{
+    display:none;
+}
+.faq input[type='radio']:checked + label + .content{
+    height:5rem;
+    padding:1rem;
+}
+footer{
+    background-color:#000;
+    padding:10rem 40rem 5rem;
+}
+footer h1{
+    color:#ffffff;
+    font-style:italic;
+    text-decoration: underline;
+}
